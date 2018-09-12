@@ -16,6 +16,8 @@ namespace FitnessWarriors.View
         public LoginPage()
         {
             InitializeComponent();
+            loginLogo.Source = ImageSource.FromFile("fwlogo.png");
+
         }
         void SignInProcedure(object sender, EventArgs e)
         {
