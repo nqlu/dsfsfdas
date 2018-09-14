@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessWarrors.View.Menu">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Button x:Name="menu_workout_button" Text="Workout" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_workout_button_Clicked">
+                    <Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>
+                </Button>
+                <Button x:Name="menu_articles_button" Text="Articles" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_articles_button_Clicked">
+                    <Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>
+                </Button>
+                <Button x:Name="menu_fullprogram_button" Text="Full Program" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_fullprogram_button_Clicked">
+                    <Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>
+                </Button>
+                <Button x:Name="menu_mealplanner_button" Text="Meal Planner" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_mealplanner_button_Clicked">
+                    <Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>
+                </Button>
+                <Button x:Name="menu_shop_button" Text="Shop" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_shop_button_Clicked">
+                    <Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>
+                </Button>
+                <Button x:Name="menu_recipes_button" Text="Recipes" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_recipes_button_Clicked">
+                    <Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>
+                </Button>
+                <Button x:Name="menu_forums_button" Text="Forums" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_forums_button_Clicked">
+                    <Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>
+                </Button>
+                <Button x:Name="menu_userinfo_button" Text="User info" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_userinfo_button_Clicked">
+                    <Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>
+                </Button>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

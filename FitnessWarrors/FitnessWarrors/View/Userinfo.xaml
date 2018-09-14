@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessWarrors.View.Userinfo">
+    <ContentPage.Content>
+
+        <ScrollView>
+            
+            <!-- Parent Container -->
+            <StackLayout Padding="20">
+
+                <StackLayout Orientation="Horizontal" Padding="20, 20">
+                    <Image Source="hamburger_menu.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+                <Image Source="fwlogo.png" Margin="20,20"></Image>
+            
+                <!-- Name -->
+                <StackLayout>
+                    <Label Text="Name"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="userinfo_name.png"></Image>
+                        <Entry x:Name="Entry_Userinfo_Name" Placeholder="Name" HorizontalOptions="FillAndExpand">
+                            <!--<Entry.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                                    <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                                </OnPlatform>
+                            </Entry.FontFamily>-->
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <!-- Age -->
+                <StackLayout>
+                    <Label Text="Age"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="userinfo_age.png"></Image>
+                        <Entry x:Name="Entry_Userinfo_Age" Placeholder="Age" HorizontalOptions="FillAndExpand">
+                            <!--<Entry.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                                    <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                                </OnPlatform>
+                            </Entry.FontFamily>-->
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+
+                <!-- Weight -->
+                <StackLayout>
+                    <Label Text="Weight"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="userinfo_weight.png"></Image>
+                        <Entry x:Name="Entry_Userinfo_Weight" Placeholder="Weight" HorizontalOptions="FillAndExpand">
+                            <!--<Entry.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                                    <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                                </OnPlatform>
+                            </Entry.FontFamily>-->
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+
+                <!-- Height -->
+                <StackLayout>
+                    <Label Text="Height"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="userinfo_height.png"></Image>
+                        <Entry x:Name="Entry_Userinfo_Height" Placeholder="Height" HorizontalOptions="FillAndExpand">
+                            <!--<Entry.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                                    <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                                </OnPlatform>
+                            </Entry.FontFamily>-->
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+
+                <!-- Preferred wake up time -->
+                <StackLayout>
+                    <Label Text="Preferred wake up time"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="userinfo_waketime.png"></Image>
+                        <Entry x:Name="Entry_Userinfo_Waketime" Placeholder="Preferred wake up time" HorizontalOptions="FillAndExpand">
+                            <!--<Entry.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                                    <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                                </OnPlatform>
+                            </Entry.FontFamily>-->
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+
+                <!-- Preferred sleep time -->
+                <StackLayout>
+                    <Label Text="Preferred time to sleep"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="userinfo_waketime.png"></Image>
+                        <Entry x:Name="Entry_Userinfo_Sleeptime" Placeholder="Preferred time to sleep" HorizontalOptions="FillAndExpand">
+                            <!--<Entry.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                                    <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                                </OnPlatform>
+                            </Entry.FontFamily>-->
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+
+                <!-- Preferred training time -->
+                <StackLayout>
+                    <Label Text="Preferred time to train"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="userinfo_waketime.png"></Image>
+                        <Entry x:Name="Entry_Userinfo_Trainingtime" Placeholder="Preferred time to train" HorizontalOptions="FillAndExpand">
+                            <!--<Entry.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                                    <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                                </OnPlatform>
+                            </Entry.FontFamily>-->
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+
+                <!-- Preferred training time -->
+                <StackLayout>
+                    <Label Text="Current occupation"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="userinfo_job.png"></Image>
+                        <Entry x:Name="Entry_Userinfo_Occupation" Placeholder="Current occupation" HorizontalOptions="FillAndExpand">
+                            <!--<Entry.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                                    <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                                </OnPlatform>
+                            </Entry.FontFamily>-->
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+
+                <Button x:Name="Confirm_Userdetails_Button" Text="Confirm User Details" BackgroundColor="Black" TextColor="#CC9966" Clicked="Confirm_Userdetails_Button_Clicked">
+                    <!--<Button.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Button.FontFamily>-->
+                </Button>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,10 +1,10 @@
 ﻿using FitnessWarriors.Model;
+using FitnessWarrors.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 //h
@@ -25,6 +25,7 @@ namespace FitnessWarriors.View
             if (user.CheckInformation())
             {
                 DisplayAlert("Login", "Login Success", "Okay");
+                Navigation.PushAsync(new FitnessWarrors.View.Menu());
             }
             else
             {
