@@ -2,13 +2,63 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessWarriors.View.LoginPage">
+    <StackLayout
+        BackgroundColor="#F8F8F8"
+        Padding="20">
+        <Image x:Name="loginLogo"
+               Source="fwlogo.png"
+               Margin="20, 20"></Image>
+        <!--<Label x:Name="Lbl_Username" Text="Email Address" />-->
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="20" >
+                <Image x:Name="Username_Icon" Source="envelope_small.png"></Image>
+                <Entry x:Name="Entry_Username" Placeholder="Email" HorizontalOptions="FillAndExpand">
+                    <Entry.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Entry.FontFamily>
+                </Entry>
+            </StackLayout>
+            
+            <StackLayout  Orientation="Horizontal"   Padding="20">
+                <Image x:Name="Password_Icon" Source="lock_small.png"></Image>
+                <Entry x:Name="Entry_Password" Placeholder="Password" HorizontalOptions="FillAndExpand">
+                    <Entry.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                            <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                        </OnPlatform>
+                    </Entry.FontFamily>
+                </Entry>
+            </StackLayout>
+            <!--<Label x:Name="Lbl_Password" Text="Password" />-->
+            <Button x:Name="Btn_Login" Text="Sign In" Clicked="SignInProcedure"/>
+        </StackLayout>
 
-    <StackLayout>
-        <Label x:Name="Lbl_Username" Text="Username" />
-        <Entry x:Name="Entry_Username" Placeholder="Username" />
-        <Label x:Name="Lbl_Password" Text="Password" />
-        <Entry x:Name="Entry_Password" Placeholder="Password" />
-        <Button x:Name="Btn_Login" Text="Sign In" Clicked="SignInProcedure"/>
+        <!-- Social login container -->
+        <StackLayout
+            x:Name="social_login_container"
+            Margin="0, 70">
+            <Button x:Name="login_facebook_button"  Text="Login with facebook" Image="facebook_small.png" BackgroundColor="#3B5998" TextColor="White">
+                <Button.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                        <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                    </OnPlatform>
+                </Button.FontFamily>
+            </Button>
+
+            <Button x:Name="login_twitter_button"  Text="Login with twitter" Image="twitter_small.png" BackgroundColor="#00aced" TextColor="White" >
+                <Button.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->
+                        <On Platform="Android" Value="Oswald-SemiBold.ttf#Oswald" />
+                    </OnPlatform>
+                </Button.FontFamily>
+            </Button>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
