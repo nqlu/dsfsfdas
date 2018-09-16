@@ -24,14 +24,14 @@ namespace FitnessWarrors.View
 
         private void menu_articles_button_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new UserList());
         }
 
         private void menu_fullprogram_button_Clicked(object sender, EventArgs e)
         {
 
         }
-
+            
         private void menu_mealplanner_button_Clicked(object sender, EventArgs e)
         {
 
@@ -52,9 +52,9 @@ namespace FitnessWarrors.View
 
         }
 
-        private void menu_userinfo_button_Clicked(object sender, EventArgs e)
+        private async void menu_userinfo_button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Userinfo());
+          await Navigation.PushAsync(new Userinfo());
         }
     }
 }

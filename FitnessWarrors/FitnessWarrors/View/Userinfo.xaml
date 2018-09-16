@@ -85,7 +85,7 @@
                     <Label Text="Preferred wake up time"></Label>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="userinfo_waketime.png"></Image>
-                        <Entry x:Name="Entry_Userinfo_Waketime" Placeholder="Preferred wake up time" HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="Entry_Userinfo_Waketime" Placeholder="Wake" HorizontalOptions="FillAndExpand">
                             <!--<Entry.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
@@ -101,7 +101,7 @@
                     <Label Text="Preferred time to sleep"></Label>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="userinfo_waketime.png"></Image>
-                        <Entry x:Name="Entry_Userinfo_Sleeptime" Placeholder="Preferred time to sleep" HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="Entry_Userinfo_Sleeptime" Placeholder="Sleep" HorizontalOptions="FillAndExpand">
                             <!--<Entry.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
@@ -117,7 +117,7 @@
                     <Label Text="Preferred time to train"></Label>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="userinfo_waketime.png"></Image>
-                        <Entry x:Name="Entry_Userinfo_Trainingtime" Placeholder="Preferred time to train" HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="Entry_Userinfo_Trainingtime" Placeholder="Train" HorizontalOptions="FillAndExpand">
                             <!--<Entry.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
@@ -133,7 +133,7 @@
                     <Label Text="Current occupation"></Label>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="userinfo_job.png"></Image>
-                        <Entry x:Name="Entry_Userinfo_Occupation" Placeholder="Current occupation" HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="Entry_Userinfo_Occupation" Placeholder="Job" HorizontalOptions="FillAndExpand">
                             <!--<Entry.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     --><!--<On Platform="iOS" Value="MarkerFelt-Thin" />--><!--
