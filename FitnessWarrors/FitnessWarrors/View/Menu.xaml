@@ -14,7 +14,7 @@
                         </OnPlatform>
                     </Button.FontFamily>
                 </Button>
-                <Button x:Name="menu_articles_button" Text="Articles" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_articles_button_Clicked">
+                <Button x:Name="menu_articles_button" Text="User 1qList" Image="" BackgroundColor="Black" TextColor="#CC9966" Clicked="menu_articles_button_Clicked">
                     <Button.FontFamily>
                         <OnPlatform x:TypeArguments="x:String">
                             <!--<On Platform="iOS" Value="MarkerFelt-Thin" />-->

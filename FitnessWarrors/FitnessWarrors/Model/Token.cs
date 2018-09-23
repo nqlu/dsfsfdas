@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FitnessWarrors.Model
+namespace FitnessWarriors.Model
 {
     class Constant
     {
