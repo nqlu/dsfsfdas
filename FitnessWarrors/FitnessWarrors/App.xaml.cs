@@ -1,11 +1,13 @@
 ﻿using FitnessWarriors.View;
+using FitnessWarrors.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
-
+using Xamarin.Forms.Xaml;
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace FitnessWarrors
 {
 	public partial class App : Application
@@ -14,7 +16,7 @@ namespace FitnessWarrors
 		{
 			InitializeComponent();
 
-            MainPage = new NavigationPage (new LoginPage());
+            MainPage = new NavigationPage (new SessionListPage());
         }
 
 		protected override void OnStart ()
